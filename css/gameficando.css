@@ -7,41 +7,41 @@ body {
 #barra{
     background-color: rgba(53, 52, 56, 0.979);
     padding: 10px;
-    position: fixed; /* Mantém a barra fixa */
-    top: 0; /* Fixa ao topo da página */
-    width: 100%; /* Ocupa toda a largura da tela */
-    z-index: 1000; /* Garante que fique acima de outros elementos */
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: center; /* Alinha verticalmente logo e links */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
 }
 
 .icone-barra{
     align-items: center;
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-size: 2rem; /* Aumenta o tamanho da fonte, ajuste o valor conforme necessário */
-    padding: 12px; /* Ajuste o espaçamento interno para acompanhar o tamanho da fonte */
-    margin: 0px 40px; /* Margem entre os links */
-    transition: color 0.18s ease, transform 0.18s ease; /* Transição suave para cor e aumento */
+    text-decoration: none; 
+    font-size: 2rem; 
+    padding: 12px; 
+    margin: 0px 40px; 
+    transition: color 0.18s ease, transform 0.18s ease; 
 }
 
 .icone-barra:hover {
-    color: rgb(117, 117, 117); /* Cor que o link terá ao passar o mouse */
-    transform: scale(1.1); /* Aumenta levemente o tamanho (10%) */
+    color: rgb(117, 117, 117); 
+    transform: scale(1.1); 
 }
 
 #logo{
     padding: 5px;
     margin-right: 20px;
-    width: 100px; /* Ajuste o tamanho da largura */
+    width: 100px; 
     height: 100px;
 }
 
-/* Imagem que rola junto com a página */
+
 #imagem-fundo {
     margin-top: 130px;
-    width: 100vw;  /* Largura 100% da viewport */
+    width: 100vw;  
     height: auto;
-    object-fit: contain;  /* Garante que a imagem apareça inteira */
+    object-fit: contain;  
     display: block;
 }
 
@@ -55,10 +55,10 @@ body {
 }
 
 .item-explicacao{
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: flex-start; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 50px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    gap: 50px; 
 }
 
 .txt-explicacao{
@@ -79,28 +79,28 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.712); /* Opacidade da sobreposição */
-    border-radius: 8px; /* Manter o mesmo arredondamento */
+    background-color: rgba(0, 0, 0, 0.712); 
+    border-radius: 8px; 
     z-index: 1;
 }
 .txt-explicacao p {
     position: relative;
-    z-index: 2; /* Coloca o texto acima da sobreposição */
+    z-index: 2; 
 }
 
 .item-materias{
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 50px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
 }
 
 .materias-container {
     display: flex;
-    flex-direction: column; /* Coloca título, imagem e descrição em coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    text-align: center; /* Alinha o texto no centro */
-    max-width: 1000px; /* Opcional: limite de largura para controle de layout */
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    max-width: 1000px; 
 }
 
 .foto-materias{
@@ -110,10 +110,10 @@ body {
 }
 
 .item-feira{
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: flex-start; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 50px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    gap: 50px; 
 }
 
 .txt-feira{
@@ -134,46 +134,46 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.712); /* Opacidade da sobreposição */
-    border-radius: 6px; /* Manter o mesmo arredondamento */
+    background-color: rgba(0, 0, 0, 0.712); 
+    border-radius: 6px; 
     z-index: 1;
 }
 .txt-feira p {
     position: relative;
-    z-index: 2; /* Coloca o texto acima da sobreposição */
+    z-index: 2; 
 }
 
 .agradecimentos{
     background-color: rgba(36, 45, 70, 0.74);
-    width: 100dvw;  /* Largura 100% da viewport */
-    height: auto;  /* Ajusta a altura proporcionalmente */
-    padding: 50px 20px; /* Adiciona espaço interno para separar do conteúdo ao redor */
+    width: 100dvw;  
+    height: auto;  
+    padding: 50px 20px; 
 }
 
 .item-agradecimentos{
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: center; /* Alinha verticalmente logo e links */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 100px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 100px; 
 }
 
 .foto-agradecimentos{
     width: 450px;
     height: 450px;
-    margin-bottom: 40px; /* Adiciona espaço abaixo das fotos de agradecimento */
+    margin-bottom: 40px; 
 }
 
 .logo-agradecimentos{
-    display: flex; /* Flexbox para alinhar itens em linha */
-    align-items: center; /* Alinha verticalmente logo e links */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 100px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 100px; 
     margin-top: 100px;
 }
 
 .logo-agradecimentos img {
     width: 450px;
-    height: auto; /* Mantém proporção original */
+    height: auto; 
 }
 
 .tela_jogo{
@@ -214,27 +214,27 @@ body {
 
 .descricao{
     font-family: 'Cinzel', sans-serif;
-    padding: 20px; /* Adiciona espaço interno */
-    margin: 20px auto; /* Margem superior/inferior de 20px, centraliza a seção */
-    max-width: 500px; /* Largura máxima para a seção */
-    background-color: rgba(0, 0, 0, 0.150); /* Fundo semi-transparente para destaque */
-    border-radius: 8px; /* Borda arredondada para um visual mais suave */
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.150); 
+    border-radius: 8px; 
 }
 
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Move um pouco para baixo */
+        transform: translateY(20px); 
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Move para a posição original */
+        transform: translateY(0);
     }
 }
 
-/* Classe para aplicar fade-in nas seções */
+
 .fade-in {
-    opacity: 0; /* Invisível por padrão */
-    animation: fadeIn 1.3s ease-in-out forwards; /* Animação de 1 segundo */
+    opacity: 0; 
+    animation: fadeIn 1.3s ease-in-out forwards; 
 }
